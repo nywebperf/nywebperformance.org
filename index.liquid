@@ -10,7 +10,7 @@ layout: null
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link async href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <style>
         /* --- General Body & Font Styles --- */
         body {
@@ -178,7 +178,7 @@ layout: null
             border-radius: 0.5rem;
             text-decoration: none;
             transition: background-color 0.3s ease;
-            box-sizing: border-box; /* Added this line */
+            box-sizing: border-box;
         }
         .apply-button:hover {
             background-color: #4338CA;
@@ -208,10 +208,10 @@ layout: null
                         {%- if member.imageUrl -%}
                             {%- if member.pageUrl -%}
                                 <a href="{{ member.pageUrl }}" target="_blank" rel="noopener noreferrer">
-                                    <img class="card-img" src="{{ member.imageUrl }}" alt="Profile picture of {{ member.name }}">
+                                    <img class="card-img" src="{{ member.imageUrl }}" alt="Profile picture of {{ member.name }}" fetchpriority="high">
                                 </a>
                             {%- else -%}
-                                <img class="card-img" src="{{ member.imageUrl }}" alt="Profile picture of {{ member.name }}">
+                                <img class="card-img" src="{{ member.imageUrl }}" alt="Profile picture of {{ member.name }}" fetchpriority="high">
                             {%- endif -%}
                         {%- else -%}
                             <a href="{{ roles.applicationUrl }}" target="_blank" rel="noopener noreferrer">
