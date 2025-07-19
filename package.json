@@ -1,0 +1,20 @@
+{
+  "name": "organizer-team-page",
+  "version": "1.0.0",
+  "description": "A simple Eleventy site to display team roles.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "static-site"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
