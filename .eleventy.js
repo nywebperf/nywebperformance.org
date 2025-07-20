@@ -11,8 +11,8 @@ module.exports = function (eleventyConfig) {
   return {
     // When a default layout is not specified,
     // we are telling Eleventy to not use a global layout.
-    markdownTemplateEngine: "liquid",
-    htmlTemplateEngine: "liquid",
-    dataTemplateEngine: "liquid",
+    markdownTemplateEngine: "ejs",
+    htmlTemplateEngine: "ejs",
+    dataTemplateEngine: "ejs",
   };
 };
