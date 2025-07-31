@@ -6,14 +6,14 @@
     {
       "title": "Lead Organizer",
       "name": "Sergey Chernyshev",
-      "imageUrl": "https://secure.meetupstatic.com/photos/member/1/3/d/e/highres_1385086.jpeg",
+      "imageUrl": "/images/sergey_chernyshev.jpg",
       "pageUrl": "https://www.sergeychernyshev.com/",
       "description": "MCs the events, finds speakers, buys geekaway items, and makes everything else happen."
     },
     {
       "title": "Meet4SPEED Lead",
       "name": "Paul Calvano",
-      "imageUrl": "https://secure.meetupstatic.com/photos/member/7/7/4/highres_310741908.jpeg",
+      "imageUrl": "/images/paul_calvano.jpg",
       "pageUrl": "https://paulcalvano.com/",
       "description": "Leads the hands-on analysis and optimization workshops called 'Meet4SPEED'."
     },
@@ -24,14 +24,14 @@
     {
       "title": "Video Operator",
       "name": "Alex Chernyshev",
-      "imageUrl": "https://secure.meetupstatic.com/photos/member/9/8/5/highres_312542437.jpeg",
+      "imageUrl": "/images/alex_chernyshev.jpg",
       "pageUrl": "https://alexchernyshev.com/",
       "description": "Sets up and uses video recording equipment to record speaker events for our YouTube channel, wires up speakers with microphones, and manages footage."
     },
     {
       "title": "Video Editor",
       "name": "Nik Chernyshev",
-      "imageUrl": "https://secure.meetupstatic.com/photos/member/5/f/6/c/highres_312684428.jpeg",
+      "imageUrl": "/images/nik_chernyshev.jpg",
       "pageUrl": "https://www.nikolaschernyshev.com/",
       "description": "Edits speaker session footage and publishes the resulting videos to our YouTube channel."
     },

@@ -5,8 +5,7 @@ module.exports = function (eleventyConfig) {
 
   // You can add more configuration options here as your project grows.
   // For example, to copy static assets like CSS or images:
-  // eleventyConfig.addPassthroughCopy("css");
-  // eleventy.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("images");
 
   return {
     // When a default layout is not specified,
