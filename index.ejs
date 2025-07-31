@@ -203,7 +203,7 @@ layout: null
       </div>
 
       <div class="roles-grid">
-        <% roles.team.forEach(function(member) { %>
+        <% roles.team.forEach(function(member, index) { %>
         <div
           class="card <%= member.name ? 'occupied-card' : 'unoccupied-card' %>"
         >
@@ -214,21 +214,14 @@ layout: null
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="card-img"
-                src="<%= member.imageUrl %>"
-                alt="Profile picture of <%= member.name %>"
-                fetchpriority="high"
-              />
+              <img class="card-img" src="<%= member.imageUrl %>" alt="Profile
+              picture of <%= member.name %>" <%- index < 3 ?
+              'fetchpriority="high"' : 'loading="lazy"' %> />
             </a>
-            <% } else { %>
-            <img
-              class="card-img"
-              src="<%= member.imageUrl %>"
-              alt="Profile picture of <%= member.name %>"
-              fetchpriority="high"
-            />
-            <% } %> <% } else { %>
+            <% } else { %> <img class="card-img" src="<%= member.imageUrl %>"
+            alt="Profile picture of <%= member.name %>" <%- index < 3 ?
+            'fetchpriority="high"' : 'loading="lazy"' %> /> <% } %> <% } else {
+            %>
             <a
               href="<%= roles.applicationUrl %>"
               target="_blank"
