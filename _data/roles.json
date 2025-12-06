@@ -22,6 +22,13 @@
       "description": "Meet and greet attendees, order and organize the food for the event, spread swag for members, and be friendly."
     },
     {
+      "title": "Social Media Manager",
+      "name": "Seraphim Sakiewicz",
+      "imageUrl": "/images/seraphim_sakiewicz.jpg",
+      "pageUrl": "https://www.linkedin.com/in/seraphim-sakiewicz/",
+      "description": "Posts to our various social media platforms, sends email announcements, and spreads the word."
+    },
+    {
       "title": "Video Operator",
       "name": "Alex Chernyshev",
       "imageUrl": "/images/alex_chernyshev.jpg",
@@ -36,11 +43,11 @@
       "description": "Edits speaker session footage and publishes the resulting videos to our YouTube channel."
     },
     {
-      "title": "Social Media Manager",
-      "name": "Seraphim Sakiewicz",
-      "imageUrl": "/images/seraphim_sakiewicz.jpg",
-      "pageUrl": "https://www.linkedin.com/in/seraphim-sakiewicz/",
-      "description": "Posts to our various social media platforms, sends email announcements, and spreads the word."
+      "title": "Event Coordinator",
+      "name": "Utsav Patel",
+      "imageUrl": "/images/utsav_patel.jpg",
+      "pageUrl": "https://www.linkedin.com/in/utsav-patel-478664223/",
+      "description": "Meets and greets attendees, helps order and organize the food for the event, spreads swag for members, and welcomes people."
     },
     {
       "title": "Speaker Manager",
