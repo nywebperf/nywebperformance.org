@@ -18,6 +18,13 @@
       "description": "Leads the hands-on analysis and optimization workshops called 'Meet4SPEED'."
     },
     {
+      "title": "Speaker Manager",
+      "name": "Jenna Zeigen",
+      "imageUrl": "/images/jenna_zeigen.jpg",
+      "pageUrl": "https://jenna.is/",
+      "description": "Manages speaker search, coordinates speakers, collects and posts their information, and coordinates dates with the venues."
+    },
+    {
       "title": "Event Coordinator",
       "description": "Meet and greet attendees, order and organize the food for the event, spread swag for members, and be friendly."
     },
@@ -48,10 +55,6 @@
       "imageUrl": "/images/utsav_patel.jpg",
       "pageUrl": "https://www.linkedin.com/in/utsav-patel-478664223/",
       "description": "Meets and greets attendees, helps order and organize the food for the event, spreads swag for members, and welcomes people."
-    },
-    {
-      "title": "Speaker Manager",
-      "description": "Manage speaker search, coordinate speakers, collect and post their information, and coordinate dates with the venues."
     },
     {
       "title": "Venue Coordinator",
